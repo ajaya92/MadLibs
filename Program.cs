@@ -28,6 +28,10 @@ namespace MadLibs
 
             Console.Write("Enter a first adjective: ");
             string adj1 = Console.ReadLine();
+            Console.Write("Enter a second adjective: ");
+            string adj2 = Console.ReadLine();
+            Console.Write("Enter a third adjective: ");
+            string adj3 = Console.ReadLine();
 
             Console.Write("Enter a verb: ");
             string verb = Console.ReadLine();
@@ -43,7 +47,7 @@ namespace MadLibs
 
             // The template for the story:
 
-            string story = "This morning _ woke up feeling _. 'It is going to be a _ day!' Outside, a bunch of _s were protesting to keep _ in stores. They began to _ to the rhythm of the _, which made all the _s very _. Concerned, _ texted _, who flew _ to _ and dropped _ in a puddle of frozen _. _ woke up in the year _, in a world where _s ruled the world.";
+            string story = $"This morning {name} woke up feeling {adj1}. 'It is going to be a {adj2} day!' Outside, a bunch of {weird}s were protesting to keep {weird} in stores. They began to {verb} to the rhythm of the {noun1}, which made all the {weird}s very {adj3}. Concerned, {name} texted {weird}, who flew {name} to {weird} and dropped {name} in a puddle of frozen {weird}. {name} woke up in the year {weird}, in a world where {noun2}s ruled the world.";
 
 
             // Print the story:
