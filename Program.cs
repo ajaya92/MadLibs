@@ -21,7 +21,8 @@ namespace MadLibs
 
             Console.WriteLine(title);
             // Define user input and variables:
-
+            Console.Write("Enter a name: ");
+            string name = Console.ReadLine();
 
             // The template for the story:
 
